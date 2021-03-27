@@ -13,7 +13,7 @@ public class Main {
         Javalin app = Javalin.create(config -> {
             //config.addStaticFiles("/publico"); //desde la carpeta de resources --> Ruta estatica.
         });
-        app.start(7000);
+        app.start(8001);
 
         app.get("/", ctx -> {
            ctx.result("Bienvenido a aplicacion 1");
